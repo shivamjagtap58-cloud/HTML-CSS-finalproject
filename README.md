@@ -5,6 +5,13 @@ A front-end clone of the Amazon home page built using pure **HTML5** and **CSS3*
 
 ---
 
+## 👨‍💻 Author
+
+**Shivam Jagtap**  
+* **GitHub:** [@shivamjagtap58-cloud](https://github.com/shivamjagtap58-cloud)
+
+---
+
 ## 🌟 Live Demo & Repository
 
 - **Live Site:** [https://shivamjagtap58-cloud.github.io/HTML-CSS-finalproject/](https://shivamjagtap58-cloud.github.io/HTML-CSS-finalproject/)
