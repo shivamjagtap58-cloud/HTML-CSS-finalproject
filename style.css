@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0b1824;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.73rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add-icon p {
+    font-weight: 700;
+}
+
+/* box3 */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 1225px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0b1824;
+}
+
+/** box4 **/
+.language {
+    display: flex;
+}
+
+.lang-select {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+/* box5 */
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.select-al {
+    display: flex;
+}
+
+#empty-select {
+    background-color: #0b1824;
+    color: gainsboro;
+    border: none;
+}
+
+/* box6 */
+.nav-third {
+    font-weight: 700;
+}
+
+/* box7 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #232f3f;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 83%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url("hero2 - Copy.jpg");
+    background-size: cover;
+    height: 600px;
+    /* Adjust height so the banner sits behind the cards */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* Places the white message bar near the bottom */
+}
+
+/* White banner message*/
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 96%;
+    margin-bottom: 280px;
+    /* Spacing above the bottom edge */
+}
+
+.hero-msg a {
+    color: #4f6686;
+}
+
+/* Shop Section */
+.box {
+    background-color: white;
+    width: 23%;
+    /* Keeps 4 boxes aligned on one line */
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    z-index: 1;
+    /* Ensures the boxes sit on top of the hero image */
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* Spreads out 4 boxes evenly */
+    padding: 0 7px;
+    margin-top: -255px;
+    /* Pulls the boxes UP onto the purple hero background */
+}
+
+/* box1 */
+.box1-content {
+    height: 385px;
+    width: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-img {
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 315px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#link {
+    text-decoration: none;
+}
+
+/* box3 */
+.box3-content {
+    height: 100%;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.box3-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 12px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.box3-subbox {
+    width: 48%;
+}
+
+.box3-imgstyle {
+    height: 115px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding-left: 10px; */
+}
+
+.box3-subbox p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* footer */
+footer {
+    margin-top: 15px;
+    background-color: #232f3f;
+}
+
+.foot-panel1 {
+    background-color: #364759;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.foot-panel2 {
+    background-color: #232f3f;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+ul p {
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    color: #dedbd4;
+}
+
+.foot-panel3 {
+    background-color: #232f3f;
+    color: white;
+    border-top: 0.5px solid #dedbd4;
+    height: 68px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.logo2 {
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 150px;
+}
+
+
+/* Container for all 3 buttons */
+.footer-selectors {
+    display: flex;
+    gap: 10px;
+}
+
+/* Container for elements with a hover menu */
+.dropdown-container {
+    position: relative;
+}
+
+.select-btn {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.select-btn:hover {
+    border-color: #ffffff;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    /* Displays the popup above the button */
+    left: 0;
+    margin-bottom: 0px;
+    background-color: #f3f3f3;
+    border: 1px solid #d5d9d9;
+    border-radius: 4px;
+    width: 200px;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    color: #0f1111;
+    font-size: 13px;
+    z-index: 1000;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    /* Stacks radio options vertically */
+}
+
+.dropdown-container::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    /* Creates an invisible clickable area above the button */
+}
+
+.dropdown-menu p {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    color: #565959;
+    font-weight: bold;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #e7e7e7;
+    color: #111111;
+}
+
+.radio-option:last-child {
+    border-bottom: none;
+}
+
+.radio-option input[type="radio"] {
+    accent-color: #e47911;
+    cursor: pointer;
+}
+
+.arrows {
+    font-size: 10px;
+    color: #a2a6ac;
+}
